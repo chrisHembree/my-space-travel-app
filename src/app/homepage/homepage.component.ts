@@ -12,6 +12,7 @@ export class HomepageComponent implements OnInit {
 }
 
 
+
     class Destination {
       name: string | undefined;
       description: string | undefined;
