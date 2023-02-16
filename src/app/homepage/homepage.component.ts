@@ -16,5 +16,27 @@ export class HomepageComponent implements OnInit {
     class Destination {
       name: string | undefined;
       description: string | undefined;
+      imagepath: string | undefined;
       id: number | undefined
     }
+    class travelOption {
+
+      name: string | undefined;
+      description: string | undefined;
+      imagepath: string | undefined;
+      id: number | undefined;
+      price: number | undefined;
+      }
+
+     class Accomodations {
+     name: string | undefined
+     description: string | undefined
+     imagepath: string | undefined;
+     id: number | undefined
+     price: number | undefined
+
+     }
+
+
+
+
